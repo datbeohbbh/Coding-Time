@@ -1,0 +1,3 @@
+/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/960C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/960C/cmake-build-debug/CMakeFiles/960C.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/960C/cmake-build-debug/CMakeFiles/edit_cache.dir

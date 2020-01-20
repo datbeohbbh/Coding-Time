@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1575050126 source:/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/cf#edu35/C/task.cpp
+	<iostream>
+	<algorithm>
+	<map>
+	<vector>
+	<set>
+	<string>
+

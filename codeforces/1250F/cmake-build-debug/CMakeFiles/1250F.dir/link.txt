@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1250F.dir/main.cpp.o  -o 1250F 

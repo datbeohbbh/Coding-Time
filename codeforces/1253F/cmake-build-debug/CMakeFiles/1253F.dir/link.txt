@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1253F.dir/main.cpp.o  -o 1253F 

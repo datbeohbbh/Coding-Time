@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1156E.dir/main.cpp.o  -o 1156E 

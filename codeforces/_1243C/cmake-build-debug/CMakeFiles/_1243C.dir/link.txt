@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/_1243C.dir/main.cpp.o  -o _1243C 

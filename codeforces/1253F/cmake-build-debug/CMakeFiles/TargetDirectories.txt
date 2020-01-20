@@ -1,0 +1,3 @@
+/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/1253F/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/1253F/cmake-build-debug/CMakeFiles/1253F.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/1253F/cmake-build-debug/CMakeFiles/edit_cache.dir

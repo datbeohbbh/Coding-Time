@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1110F.dir/main.cpp.o  -o 1110F 

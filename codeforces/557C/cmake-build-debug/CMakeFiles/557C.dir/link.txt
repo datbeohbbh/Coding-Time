@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/557C.dir/main.cpp.o  -o 557C 

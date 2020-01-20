@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/898D.dir/main.cpp.o  -o 898D 
