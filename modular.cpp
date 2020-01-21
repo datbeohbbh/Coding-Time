@@ -95,3 +95,5 @@ struct Modular{
         return (*this /= x);
     }
 };
+
+#define mod_t Modular <long long>// or int
