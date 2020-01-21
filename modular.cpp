@@ -1,6 +1,10 @@
+#define type_of_base long long
+// or int
+
+const type_of_base base = (type_of_base)(1e9 + 7);
+
 template <class T>
 struct Modular{
-    const T base = (T)(1e9 + 7);
     T val;
     Modular(){
         val = 0;
@@ -42,7 +46,7 @@ struct Modular{
         return *this;
     }
     Modular <T> operator -= (const Modular <T> &x){
-        val =(val % base - x.val % base);
+        val = (val % base - x.val % base);
         val += (val < 0 ? base : 0);
         return *this;
     }
@@ -71,7 +75,7 @@ struct Modular{
     Modular <T> operator ^= (T h){
         Modular <T> res = Modular <T> (1);
         Modular <T> x = *this;
-        for(;h > 0;x =x * x,h /= (T)2){
+        for(;h > 0;x = x * x,h /= (T)2){
             if(h & 1){
                 res *= x;
             }
@@ -96,4 +100,5 @@ struct Modular{
     }
 };
 
-#define mod_t Modular <long long>// or int
+#define mod_t Modular <type_of_base>
+// or int
