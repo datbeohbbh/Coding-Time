@@ -91,7 +91,7 @@ struct Modular{
     Modular <T> operator /= (Modular <T> &x){
         return (*this *= (x ^ (base - 2)));
     }
-    Modular <T> operator / (Modular <T> &x){
+    Modular <T> operator / (Modular <T> x){
         return (*this /= x);
     }
 };
