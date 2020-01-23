@@ -29,10 +29,10 @@ struct Modular{
         return x.val > y.val;
     }
     friend bool operator <= (const Modular <T> &x,const Modular <T> &y){
-        return (x < y) or (x == y);
+        return !(x > y);
     }
     friend bool operator >= (const Modular <T> &x,const Modular <T> &y){
-        return (x > y) or (x == y);
+        return !(x < y);
     }
     friend ostream& operator << (ostream &out,const Modular <T> &x){
         return out << x.val;
@@ -101,4 +101,4 @@ struct Modular{
 };
 
 #define mod_t Modular <type_of_base>
-// or int
+
