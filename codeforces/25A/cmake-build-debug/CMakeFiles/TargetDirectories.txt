@@ -1,3 +1,0 @@
-/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/25A/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/25A/cmake-build-debug/CMakeFiles/25A.dir
-/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/25A/cmake-build-debug/CMakeFiles/edit_cache.dir

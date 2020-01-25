@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/1234F.dir/main.cpp.o  -o 1234F 

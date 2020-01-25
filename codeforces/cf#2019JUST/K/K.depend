@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1559771363 source:/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/cf#2019JUST/K/task.cpp
-	<bits/stdc++.h>
-	<ext/pb_ds/assoc_container.hpp>
-	<ext/pb_ds/tree_policy.hpp>
-

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/960D.dir/main.cpp.o  -o 960D 

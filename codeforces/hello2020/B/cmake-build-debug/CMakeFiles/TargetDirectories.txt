@@ -1,3 +1,0 @@
-/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/hello2020/B/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/hello2020/B/cmake-build-debug/CMakeFiles/B.dir
-/home/datbeohbbh/Desktop/MY_PROJECT/codeforces/hello2020/B/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/160C.dir/main.cpp.o  -o 160C 

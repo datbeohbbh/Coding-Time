@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/B.dir/main.cpp.o  -o B 

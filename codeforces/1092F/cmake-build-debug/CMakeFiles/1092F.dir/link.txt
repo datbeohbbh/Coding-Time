@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/1092F.dir/main.cpp.o  -o 1092F 

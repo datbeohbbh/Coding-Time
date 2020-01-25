@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/960F.dir/main.cpp.o  -o 960F 

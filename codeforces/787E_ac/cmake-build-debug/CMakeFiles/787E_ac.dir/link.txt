@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/787E_ac.dir/main.cpp.o  -o 787E_ac 

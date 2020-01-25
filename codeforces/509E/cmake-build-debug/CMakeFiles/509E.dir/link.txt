@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/509E.dir/main.cpp.o  -o 509E 
