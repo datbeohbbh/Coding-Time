@@ -1,88 +1,88 @@
-using MOD_TYPE = long long; // or int
-const MOD_TYPE MOD = (MOD_TYPE)1000000007;
-
-template<class T> struct Modular {
+template<class T,T MOD>
+class Modular {
 private :
-    T val;
+    T value;
+public :
+    using modType = Modular <T,MOD>;
 public:
-    Modular () {
-        val = 0;
+    Modular <T,MOD> () {
+        value = 0;
     }
 
-    Modular (const T &new_val) {
-        val = new_val % MOD;
-        val = (val >= MOD ? val - MOD : (val < 0 ? val + MOD : val));
+    explicit Modular<T,MOD> (const T &new_value) {
+        value = new_value % MOD;
+        value = (value >= MOD ? value - MOD : (value < 0 ? value + MOD : value));
     }
 
-    Modular<T> &operator= (const Modular<T> &x) {
-        this -> val = x . val;
+    modType &operator= (const modType &other) {
+        value = other.value;
         return *this;
     }
 
-    friend bool operator== (const Modular<T> &x, const Modular<T> &y) {
-        return x . val == y . val;
+    bool operator == (const modType &other) const {
+        return value == other.value;
     }
 
-    friend bool operator!= (const Modular<T> &x, const Modular<T> &y) {
-        return !(x == y);
+    bool operator!= (const modType &other) const {
+        return !(value == other.value);
     }
 
-    friend bool operator< (const Modular<T> &x, const Modular<T> &y) {
-        return x . val < y . val;
+    bool operator< (const modType &other) const {
+        return value < other.value;
     }
 
-    friend bool operator> (const Modular<T> &x, const Modular<T> &y) {
-        return x . val > y . val;
+    bool operator> (const modType &other) const {
+        return value > other.value;
     }
 
-    friend bool operator<= (const Modular<T> &x, const Modular<T> &y) {
-        return !(x > y);
+    bool operator<= (const modType &other) const {
+        return !(value > other.value);
     }
 
-    friend bool operator>= (const Modular<T> &x, const Modular<T> &y) {
-        return !(x < y);
+    bool operator>= (const modType &other) const {
+        return !(value < other.value);
     }
 
-    friend ostream &operator<< (ostream &out, const Modular<T> &x) {
-        return out << x . val;
+    friend ostream &operator<< (ostream &out, const modType &other) {
+        return out << other.value;
     }
 
-    friend istream &operator>> (istream &in, Modular<T> &x) {
-        return in >> x . val;
+    friend istream &operator>> (istream &in, modType &other) {
+        return in >> other.value;
     }
 
-    Modular<T> &operator+= (const Modular<T> &x) {
-        val = (val % MOD + x . val % MOD);
-        val -= (val > MOD ? MOD : 0);
+    modType &operator+= (const modType &x) {
+        value = (value % MOD + x . value % MOD);
+        value -= (value > MOD ? MOD : 0);
         return *this;
     }
 
-    Modular<T> &operator-= (const Modular<T> &x) {
-        val = (val % MOD - x . val % MOD);
-        val += (val < 0 ? MOD : 0);
+    modType &operator-= (const modType &x) {
+        value = (value % MOD - x . value % MOD);
+        value += (value < 0 ? MOD : 0);
         return *this;
     }
 
-    Modular<T> operator- () const {
-        return Modular<T>(0) - *this;
+    modType operator- () const {
+        return modType(0) - *this;
     }
 
-    Modular<T> &operator++ () {
-        return (*this += Modular<T>(1));
+    modType &operator++ () {
+        return (*this += modType(1));
     }
 
-    Modular<T> &operator-- () {
-        return (*this -= Modular<T>(1));
+    modType &operator-- () {
+        return (*this -= modType(1));
     }
 
-    Modular<T> &operator*= (const Modular<T> &x) {
-        val = (long long) (val % MOD) * (x . val % MOD) % MOD;
+    modType& operator *=(const modType &x) {
+        value = (long long) (value % MOD) * (x . value % MOD) % MOD;
         return *this;
     }
 
-    Modular<T> &operator^= (T h) {
-        Modular<T> res = Modular<T>(1);
-        Modular<T> x = *this;
+    modType& operator^= (T h) {
+        modType res = modType(1);
+        modType x = *this;
         for (; h > 0; x = x * x, h /= (T) 2) {
             if (h & 1) {
                 res *= x;
@@ -92,37 +92,34 @@ public:
         return *this;
     }
 
-    Modular<T> &operator^= (Modular<T> h) {
-        return (*this ^= h . val);
+    modType& operator^= (modType h) {
+        return (*this ^= h . value);
     }
 
-    Modular<T> operator^ (T h) {
-        return (Modular<T>(*this) ^= h);
+    modType operator^ (modType h) const {
+        return (modType(*this) ^= h . value);
     }
 
-    Modular<T> operator^ (Modular<T> h) {
-        return (Modular<T>(*this) ^= h . val);
+    modType &operator/= (const modType &x) {
+        return (*this *= (x ^ modType(MOD - 2)));
     }
 
-    Modular<T> &operator/= (Modular<T> &x) {
-        return (*this *= (x ^ (MOD - 2)));
+    modType operator+ (const modType &x) {
+        return (modType(*this) += x);
     }
 
-    Modular<T> operator+ (const Modular<T> &x) {
-        return (Modular<T>(*this) += x);
+    modType operator- (const modType &x) {
+        return (modType(*this) -= x);
     }
 
-    Modular<T> operator- (const Modular<T> &x) {
-        return (Modular<T>(*this) -= x);
+    modType operator* (const modType &x) {
+        return (modType(*this) *= x);
     }
 
-    Modular<T> operator* (const Modular<T> &x) {
-        return (Modular<T>(*this) *= x);
-    }
-
-    Modular<T> operator/ (Modular<T> x) {
-        return (Modular<T>(*this) /= x);
+    modType operator/ (modType x) {
+        return (modType(*this) /= x);
     }
 };
-
-using mod_t = Modular<MOD_TYPE>;
+using Type = int;
+const Type base = (Type)1000000007;
+using Mint = Modular<Type,base>;
