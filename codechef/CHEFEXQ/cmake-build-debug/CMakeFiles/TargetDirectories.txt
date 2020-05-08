@@ -1,0 +1,3 @@
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/CHEFEXQ/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/CHEFEXQ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/CHEFEXQ/cmake-build-debug/CMakeFiles/CHEFEXQ.dir

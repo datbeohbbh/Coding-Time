@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PHYSICS.dir/main.cpp.o  -o PHYSICS 

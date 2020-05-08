@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TREEROOT.dir/main.cpp.o  -o TREEROOT 

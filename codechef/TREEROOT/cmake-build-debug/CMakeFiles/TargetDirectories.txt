@@ -1,0 +1,3 @@
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/TREEROOT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/TREEROOT/cmake-build-debug/CMakeFiles/TREEROOT.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/TREEROOT/cmake-build-debug/CMakeFiles/edit_cache.dir

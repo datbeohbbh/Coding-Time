@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TSHIRTS.dir/main.cpp.o  -o TSHIRTS 

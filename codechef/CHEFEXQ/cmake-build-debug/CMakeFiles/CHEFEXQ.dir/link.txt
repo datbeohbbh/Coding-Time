@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CHEFEXQ.dir/main.cpp.o  -o CHEFEXQ 
