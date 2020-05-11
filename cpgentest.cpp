@@ -63,8 +63,6 @@ T rand(T range = numeric_limits <T> :: max()){
  *
  *  - creat 3 file test.inp , test.out , gtest.out and keep original file main.cpp
  *
- *  - the most IMPORTANT function is clean()
- *
  *  - add to cmake this line : add_executable(test test.cpp)
  *
  *  - close stream input and output right after done with it.
@@ -74,41 +72,51 @@ T rand(T range = numeric_limits <T> :: max()){
 #define RESET   "\033[0m"
 #define GREEN   "\033[32m"
 
-// remember clean function.
 namespace task {
 
-    void clean(){ // IMPORTANT
+    class Solver{
+    private:
+        // variables
+    public:
+        Solver(){}
+        ~Solver(){ // CLEAN
 
-    }
+        }
+        void solve(ifstream &cin,ofstream &cout){ // your code goes here
+
+            cin.close();
+            cout.close();
+        }
+    };
 
     void solve() {
         ifstream cin("test.inp");
         ofstream cout("test.out");
-        
-        
-
-        cin.close();
-        cout.close();
-        clean();
+        (new Solver) -> solve(cin,cout);
     }
 }
 
-// remember clean function.
 namespace TestGenerator {
 
-    void clean(){ // IMPORTANT
+    class Solver{
+    private:
+        // variables
+    public:
+        Solver(){}
+        ~Solver(){ // CLEAN
 
-    }
+        }
+        void solve(ifstream &cin,ofstream &cout){ // your code goes here
+
+            cin.close();
+            cout.close();
+        }
+    };
 
     void solve() {
         ifstream cin("test.inp");
         ofstream cout("gtest.out");
-        
-        
-        
-        cin.close();
-        cout.close();
-        clean();
+        (new Solver) -> solve(cin,cout);
     }
 
     string getInformation(ifstream &file) {
@@ -140,15 +148,16 @@ namespace TestGenerator {
     void testing(const int NUM_TEST) {
         for (int test_id = 1; test_id <= NUM_TEST; ++test_id) {
             ofstream gentest("test.inp");
+
             // ------- test area --------//
             cout << "running on test :" << ' ' << test_id << '\n';
             cout <<"input of test " << test_id << ' ' << ":" << '\n';
-            
-            
 
-            gentest . close();
+
 
             // ------- test area --------//
+
+            gentest . close();
 
             task::solve();
             TestGenerator::solve();
@@ -168,7 +177,7 @@ namespace TestGenerator {
 }
 
 int main(void){
-    TestGenerator::testing(500);
+    TestGenerator::testing(5);
     //task::solve();
 }
 
