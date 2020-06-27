@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/ABCSTR.dir/main.cpp.o  -o ABCSTR 

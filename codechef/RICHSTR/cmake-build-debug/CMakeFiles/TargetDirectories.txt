@@ -1,4 +1,0 @@
-/home/datbeohbbh/Desktop/MY_PROJECT/codechef/RICHSTR/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/datbeohbbh/Desktop/MY_PROJECT/codechef/RICHSTR/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/datbeohbbh/Desktop/MY_PROJECT/codechef/RICHSTR/cmake-build-debug/CMakeFiles/RICHAC.dir
-/home/datbeohbbh/Desktop/MY_PROJECT/codechef/RICHSTR/cmake-build-debug/CMakeFiles/RICHSTR.dir

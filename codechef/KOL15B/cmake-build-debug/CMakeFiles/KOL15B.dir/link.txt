@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/KOL15B.dir/main.cpp.o  -o KOL15B 

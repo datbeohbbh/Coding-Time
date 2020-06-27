@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/AND.dir/main.cpp.o  -o AND 

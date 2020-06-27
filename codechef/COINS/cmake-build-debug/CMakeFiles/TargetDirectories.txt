@@ -1,3 +1,0 @@
-/home/datbeohbbh/Desktop/MY_PROJECT/codechef/COINS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/datbeohbbh/Desktop/MY_PROJECT/codechef/COINS/cmake-build-debug/CMakeFiles/COINS.dir
-/home/datbeohbbh/Desktop/MY_PROJECT/codechef/COINS/cmake-build-debug/CMakeFiles/edit_cache.dir

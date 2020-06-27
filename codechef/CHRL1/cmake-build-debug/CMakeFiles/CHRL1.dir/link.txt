@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/CHRL1.dir/main.cpp.o  -o CHRL1 

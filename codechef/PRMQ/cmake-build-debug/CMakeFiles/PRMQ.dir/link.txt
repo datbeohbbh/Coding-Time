@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/PRMQ.dir/main.cpp.o  -o PRMQ 

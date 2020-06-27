@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/SSTORY_2.dir/main.cpp.o  -o SSTORY_2 
