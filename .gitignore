@@ -1,2 +1,2 @@
 # not ignore source code files,input/output files
-**/*.class
+!**/*.java
