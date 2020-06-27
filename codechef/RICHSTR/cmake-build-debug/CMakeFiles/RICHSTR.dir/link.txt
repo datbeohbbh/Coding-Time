@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/RICHSTR.dir/main.cpp.o  -o RICHSTR 

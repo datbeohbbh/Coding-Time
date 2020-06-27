@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/RICHAC.dir/ac.cpp.o  -o RICHAC 

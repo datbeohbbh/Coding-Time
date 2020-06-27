@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PPXOR.dir/main.cpp.o  -o PPXOR 

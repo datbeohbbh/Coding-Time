@@ -1,0 +1,4 @@
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/QSET_IT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/QSET_IT/cmake-build-debug/CMakeFiles/task.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/QSET_IT/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/QSET_IT/cmake-build-debug/CMakeFiles/main.dir

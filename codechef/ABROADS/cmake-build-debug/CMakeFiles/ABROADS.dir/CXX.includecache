@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/datbeohbbh/Desktop/MY_PROJECT/codechef/ABROADS/main.cpp
+bits/stdc++.h
+-
+bit
+-
+

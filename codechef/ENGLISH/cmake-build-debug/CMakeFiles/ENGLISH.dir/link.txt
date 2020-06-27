@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ENGLISH.dir/main.cpp.o  -o ENGLISH 
