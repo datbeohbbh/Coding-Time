@@ -1,12 +1,5 @@
 # not ignore source code files,input/output files
-**/*
-!*.java
-!*.cpp
-!*.py
-!*.kt
-#!*.inp
-#!*.out
-#!*.txt
+atcoder/**/*.*
 !atcoder/**/*.java
 !atcoder/**/*.cpp
 !atcoder/**/*.py
