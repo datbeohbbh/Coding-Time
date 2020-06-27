@@ -1,6 +1,2 @@
 # not ignore source code files,input/output files
-**/!*.cpp
-**/!*.java
-**/!*.py
-**/!*.inp
-**/!*.out
+**/*.class
