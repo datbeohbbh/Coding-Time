@@ -1,3 +1,8 @@
 # not ignore source code files,input/output files
 **/*.*
 !*.java
+!*.cpp
+!*.py
+!*.kt
+!*.inp
+!*.txt
