@@ -1,12 +1,10 @@
 # keep source code files,input/output file, executed files.
 */**/*.*
-!*.java
-!*.cpp
-!*.py
-!*.kt
-!*.md
-!*.inp
-!*.out
+/!*.java
+/!*.cpp
+/!*.py
+/!*.kt
+/!*.md
 !*/**/*.java
 !*/**/*.cpp
 !*/**/*.kt
