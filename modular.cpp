@@ -63,7 +63,7 @@ public:
     
     modular toPower(T h) const { return modular(powerValue(h)); }
    
-    modular toInverse(T h) const { return modular(inverseValue()); }
+    modular toInverse() const { return modular(inverseValue()); }
     
     T getValue() const { return value; }
 };
